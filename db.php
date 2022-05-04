@@ -1,8 +1,7 @@
 <?php $host = 'db';
     $dbuser = 'root';
     $dbpassword = 'lionPass';
-    $dbname = 'crossfitapp';
-    // $port = '8005'; 
+    $dbname = 'crossfitapp'; 
 
     $connection = new mysqli($host, $dbuser, $dbpassword, $dbname);
 

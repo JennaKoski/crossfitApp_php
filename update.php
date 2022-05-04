@@ -43,6 +43,7 @@ if (isset($_POST['submit'])) {
         <option value="backsquat">Back squat</option>
         <option value="pushpress">Push press</option>
         <option value="deadlift">Deadlift</option>
+    </select>
     <input type="number" name="repeats" class="input_repeats" placeholder="Insert repeats">
     <input type="number" name="weight" class="input_weight" placeholder="Insert weight (kg)">
     <input type="submit" name="submit" value="Update">

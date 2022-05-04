@@ -53,17 +53,6 @@ if (isset($_POST['delete'])) {
         <p>
         <?= $_POST["movement"] ?>
       </p>
-        <!-- <select name="movement" class="movement" required>
-        <option value="" invalid="true" hidden>
-          Select movement
-        </option>
-        <option value="snatch">Snatch</option>
-        <option value="powerclean">Power clean</option>
-        <option value="jerk">Jerk</option>
-        <option value="frontsquat">Front squat</option>
-        <option value="backsquat">Back squat</option>
-        <option value="pushpress">Push press</option>
-        <option value="deadlift">Deadlift</option> -->
          <input class="input_repeats" type="number"  value="<?= $repeats ?>"  name="repeats" />
          <input class="input_weight" type="number"  value="<?= $weight ?>"  name="weight" /> 
           <p> <?=$date?> </p> 

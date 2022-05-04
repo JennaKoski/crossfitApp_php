@@ -28,17 +28,6 @@ if(!$result){
       <p>
       <?= $_POST["movement"] ?>
       </p>
-        <!-- <select name="movement" class="movement" required>
-        <option value="" invalid="true" hidden>
-          Select movement
-        </option>
-        <option value="snatch">Snatch</option>
-        <option value="powerclean">Power clean</option>
-        <option value="jerk">Jerk</option>
-        <option value="frontsquat">Front squat</option>
-        <option value="backsquat">Back squat</option>
-        <option value="pushpress">Push press</option>
-        <option value="deadlift">Deadlift</option> -->
         <input type="number" name="repeats" class="input_repeats" placeholder="Insert repeats">
         <input type="number" name="weight" class="input_weight" placeholder="Insert weight (kg)">
         <div>
