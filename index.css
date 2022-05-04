@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(212, 228, 156);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: peru;
+  height: 20vh;
+  color: rgb(49, 49, 48);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0 1rem 0 4rem;
+}
+
+.container {
+  margin: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.updateForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(114, 113, 111);
+  height: 4rem;
+  padding: 1rem;
+  color: white;
+}
+
+.btn {
+  width: 10rem;
+  height: 3.1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  background-color: rgb(77, 76, 75);
+  box-shadow: inset 0 0 15px rgb(70, 70, 68), 1px 2px 5px rgb(68, 67, 67);
+  transition: 0.2s;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: inset 0 0 15px rgb(24, 24, 23), 1px 2px 5px rgb(30, 30, 30);
+}
+
+.input_repeats,
+.input_weight,
+.input_movement {
+  padding: 0.6rem;
+  margin: 1rem;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  box-shadow: 1px 1px 5px rgb(30, 30, 30);
+}
+
+.inputButton {
+  height: 3rem;
+  width: 7rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 1rem;
+  font-size: 1.2rem;
+  background-color: rgb(250, 172, 94);
+  box-shadow: inset 0 0 8px rgb(94, 94, 92), 1px 1px 5px rgb(73, 72, 72);
+  transition: 0.2s;
+  color: rgb(49, 49, 48);
+}
+
+.inputButton:hover {
+  box-shadow: inset 0 0 8px rgb(49, 49, 48), 1px 1px 5px rgb(30, 30, 30);
+  transition: 0.2s;
+}
